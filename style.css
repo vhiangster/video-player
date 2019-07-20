@@ -1,0 +1,262 @@
+html {
+    --grapejuice-color: #1a1423;
+    --vivaciousviolet-color: #372549;
+    --dustypurple-color: #774c60;
+    --artificialbubblegum-color: #b75d69;
+    --pinkmist-color: #eacdc2;
+    --lightfog-color: #f1dfd8;
+    /*font-family: 'IBM Plex Sans Condensed', sans-serif;*/
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.box {
+    color: #fff;
+    text-decoration: none;
+}
+
+.box-container {
+    display: grid;
+    /*grid-template-columns: 400px 400px;*/
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-gap: 5px;
+    background-color: #fff;
+    color: #444;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cooking {
+    background: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('imgs/index/cooking.jpg'), rgba(0, 0, 0, 0.9);
+    background-size: cover;
+    /*   opacity: 0.9; */
+}
+
+.cooking:hover {
+    background: linear-gradient(rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('imgs/index/cooking.jpg'), rgba(0, 0, 0, 0.9);
+    background-size: cover;
+}
+
+.pets {
+    background: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('imgs/index/58410910_433934554100759_2320177536203742380_n.jpg'), rgba(0, 0, 0, 0.9);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pets:hover {
+    background: linear-gradient(rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('imgs/index/58410910_433934554100759_2320177536203742380_n.jpg'), rgba(0, 0, 0, 0.9);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gaming {
+    background: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('imgs/index/anker-gaming-mouse.jpg'), rgba(0, 0, 0, 0.9);
+    background-size: cover;
+
+}
+
+.gaming:hover {
+    background: linear-gradient(rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('imgs/index/anker-gaming-mouse.jpg'), rgba(0, 0, 0, 0.9);
+    background-size: cover;
+}
+
+.art {
+    background: linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2)), url('imgs/index/abstract-rose_2.jpg'), rgba(0, 0, 0, 0.9);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.art:hover {
+    background: linear-gradient(rgba(20, 20, 20, 0.6), rgba(20, 20, 20, 0.6)), url('imgs/index/abstract-rose_2.jpg'), rgba(0, 0, 0, 0.9);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.item {
+    display: inline-block;
+    /* border: 4px var(--vivaciousviolet-color); */
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.tasty-img {
+    background-image: url('imgs/cooking/tasty-img.jpg');
+    background-size: cover;
+}
+
+.ba-img {
+    background-image: url('Imgs/cooking/ba-img.jpg');
+    background-size: cover;
+}
+
+.peacefulcuisine-img {
+    background-image: url('Imgs/cooking/peacefulcusine-img.jpg');
+    background-size: cover;
+}
+
+.kawaiisw-img {
+    background-image: url('Imgs/cooking/kawaiisw-img.jpg');
+    background-size: cover;
+}
+
+.rosannapansino-img {
+    background-image: url('Imgs/cooking/rosannapansino-img.jpg');
+    background-size: cover;
+}
+
+.junskitchen-img {
+    background-image: url('Imgs/cooking/junskitchen-img.jpg');
+    background-size: cover;
+}
+
+.amandarlee-img {
+    background-image: url('Imgs/artscrafts/amandarlee-img.jpg');
+    background-size: cover;
+}
+
+.itsmeandie-img {
+    background-image: url('Imgs/artscrafts/itsmeandie-img.jpg');
+    background-size: cover;
+}
+
+.eandk-img {
+    background-image: url('Imgs/artscrafts/eandk-img.jpg');
+    background-size: cover;
+}
+
+.drawwjazza-img {
+    background-image: url('Imgs/artscrafts/drawwjazza-img.jpg');
+    background-size: cover;
+}
+
+.nerdecrafter-img {
+    background-image: url('Imgs/artscrafts/nerdecrafter-img.jpg');
+    background-size: cover;
+}
+
+.dollightful-img {
+    background-image: url('Imgs/artscrafts/dollightful-img.jpg');
+    background-size: cover;
+}
+
+.jennamarbles-img {
+    background-image: url('Imgs/pets/jennamarbles-img.jpg');
+    background-size: cover;
+}
+
+.meankitty-img {
+    background-image: url('Imgs/pets/meankitty-img.jpg');
+    background-size: cover;
+}
+
+.randjadventure-img {
+    background-image: url('Imgs/pets/randjadventures-img.jpg');
+    background-size: cover;
+}
+
+.creamheros-img {
+    background-image: url('Imgs/pets/creamheros-img.jpg');
+    background-size: cover;
+}
+
+.supercooper-img {
+    background-image: url('Imgs/pets/supercooper-img.jpg');
+    background-size: cover;
+}
+
+.rockyk-img {
+    background-image: url('Imgs/pets/rockyk-img.jpg');
+    background-size: cover;
+}
+
+.stacyplays-img {
+    background-image: url('Imgs/gaming/stacyplays-img.jpg');
+    background-size: cover;
+}
+
+.dantdm-img {
+    background-image: url('Imgs/gaming/dantdm-img.jpg');
+    background-size: cover;
+}
+
+.grian-img {
+    background-image: url('Imgs/gaming/grian-img.jpg');
+    background-size: cover;
+}
+
+.mumbojumbo-img {
+    background-image: url('Imgs/gaming/mumbojumbo-img.jpg');
+    background-size: cover;
+}
+
+.ihascupquake-img {
+    background-image: url('Imgs/gaming/ihascupquake-img.jpg');
+    background-size: cover;
+}
+
+.ldshadowlady-img {
+    background-image: url('Imgs/gaming/ldshadowlady-img.jpg');
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    body {
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        height: 100vh;
+    }
+
+    .box-container {
+        display: grid;
+        grid-template-columns: 400px 400px;
+        grid-template-rows: 200px 200px;
+    }
+
+    .wrapper-channel {
+        width: 100%;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .carousel {
+        width: 90%;
+        margin: 0 auto;
+
+
+    }
+
+
+}
+
